@@ -1,0 +1,48 @@
+
+.about {
+    background: #014E56;
+    height: 527px;
+
+
+}
+
+.about__title {
+    display: flex;
+    margin-top: 73px;
+    text-align: center;
+    padding-top: 77px
+}
+
+.title__text {
+    @include title__text;
+    width: 159.95px;
+    height: 40px;
+
+}
+
+.about__list {
+    display: flex;
+    list-style: none;
+    margin-top: 9px;
+}
+
+.title__itom {
+    @include home__about;
+}
+
+.title__itom__two {
+    @include home__about;
+    margin-left: 40px;
+}
+
+.about__btn {
+    display: flex;
+    width: 935px;
+    justify-content: end;
+}
+
+.about__btn__title {
+    @include contact__us;
+    background-color: $darkblue;
+}
+

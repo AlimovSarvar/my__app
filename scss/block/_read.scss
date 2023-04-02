@@ -1,0 +1,45 @@
+.read {
+    background: #F67E7E;
+    width: 1440px;
+    height: 269px;
+
+}
+
+.read__title {
+    display: flex;
+    // width: 917px;
+    // height: 48px;
+    justify-content: center;
+    padding-top: 76px;
+
+}
+
+.read__title h2 {
+    color: #012F34;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    margin-left: 63px;
+
+}
+
+.read__btn {
+    @include contact__us;
+    margin-left: 260px;
+    background-color: #F67E7E;
+    border: 1px solid #012F34;
+    color: #012F34;
+}
+
+.last {
+    width: 1440px;
+    height: 196px;
+    background: #002529;
+
+}
+.last__title{
+   padding-top: 48px;
+    align-items: center;
+    padding-left: 165px;
+    
+}

@@ -1,0 +1,79 @@
+@mixin home__about {
+    text-decoration: none;
+    color: $lightwhte;
+    width: 600px;
+    height: 18px;
+}
+
+@mixin contact__us {
+    width: 153px;
+    height: 48px;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+
+    color: $lightwhte;
+}
+
+@mixin title__text {
+    color: $lightwhte;
+    margin-left: 165px;
+}
+@mixin home__about {
+    text-decoration: none;
+    color: $lightwhte;
+    width: 600px;
+    height: 18px;
+}
+
+@mixin contact__us {
+    width: 153px;
+    height: 48px;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+  
+    color: $lightwhte;
+}
+
+@mixin title__text {
+    color: $lightwhte;
+    margin-left: 165px;
+}
+
+@mixin meet {
+    background: #012F34;
+    height: 253px;
+    width: 350px;
+   text-align: center;
+    border-radius: 0px;
+    padding-top: 40px;
+    }
+@mixin meet__text {
+    margin-top: 16px;
+    width: 300px;
+    height: 28px;
+    color: $lightblue ;
+  padding-left: 50px;
+}
+@mixin list__h4 {
+    font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+color: $lightpink;
+height: 28px;
+width: 445px;
+left: 0px;
+top: 0px;
+border-radius: nullpx;
+
+}
+@mixin list__p{
+    height: 50px;
+width: 445px;
+left: 0px;
+top: 44px;
+border-radius: nullpx;
+font-weight: 600;
+font-size: 15px;
+color: $lightwhte;
+margin-top: 16px;
+}

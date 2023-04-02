@@ -1,0 +1,42 @@
+.home__five{
+    height: 196px;
+    background-color: $blakblue;
+    text-align: center;
+}
+.text__list{
+    list-style: none;
+    display: flex;
+   gap: 40px;
+   margin-top: 25px;
+
+}
+.text__list a{
+    text-decoration: none;
+    color: $lightwhte;
+  }
+  .book__{
+    display: flex;
+  }
+  .book img{
+   padding-top:  48px;
+  }
+  .text_p{
+height: 100px;
+width: 140px;
+left: 285px;
+top: 0px;
+border-radius: nullpx;
+font-family: Livvic;
+font-size: 15px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+opacity: 0.6;
+color: $lightwhte;
+margin-left: 150px;
+
+  }
+  .text_p p{
+   padding-bottom: 1000px;
+  }

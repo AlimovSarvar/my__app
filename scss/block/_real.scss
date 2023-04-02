@@ -1,0 +1,87 @@
+.home__thri {
+    
+    height: 745px;
+    background: #004047;
+    background-image: url('../../index_img/real__one.png'), url('../../index_img/real__two.png');
+    background-repeat: no-repeat;
+    background-position:  top left , bottom right;
+}
+
+.real__text h2 {
+    height: 96px;
+    width: 932px;
+
+    border-radius: nullpx;
+    color: $lightwhte;
+    font-family: Livvic;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 140px;
+    margin-left: 190px;
+}
+
+.real__list {
+    list-style: none;
+    display: flex ;
+    margin-left: 170px;
+    text-align: center;
+}
+
+.real__list p {
+    height: 100px;
+    width: 350px;
+    left: 0px;
+    top: 36px;
+    border-radius: nullpx;
+    height: 100px;
+    left: 0%;
+    right: 68.47%;
+    top: calc(50% - 100px/2 - 70.5px);
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: $lightwhte;
+    
+}
+.real__list h4{
+    height: 28px;
+width: 350px;
+left: 0px;
+top: 0px;
+border-radius: nullpx;
+font-family: Livvic;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: center;
+color:  #79C8C7;
+margin-top: 24px;
+
+}
+.real__text__i{
+    font-style: italic;
+    color: $lightwhte;
+    // margin-left: 60px;
+}
+.real__list img{
+height: 62px;
+width: 62px;
+left: 144px;
+top: 240px;
+border-radius: 0px;
+left: 12.97%;
+right: 81.44%;
+top: 76.68%;
+bottom: 3.51%;
+background: url(Image.png);
+margin-top: 32px;
+// margin-left: 140px;
+}
+

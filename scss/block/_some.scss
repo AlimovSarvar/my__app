@@ -1,0 +1,24 @@
+.some {
+    background: #012F34;
+
+}
+
+.some__text {
+    text-align: center;
+}
+
+.some__text h2 {
+    color: $lightwhte;
+
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 70px;
+}
+
+.some__text a img {
+    text-decoration: none;
+    margin-bottom: 140px;
+}

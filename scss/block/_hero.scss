@@ -1,0 +1,38 @@
+.home {
+    display: flex;
+    width: 1110px;
+    height: 156px;
+}
+
+.home__text {
+    width: 350px;
+    height: 100px;
+    font-size: 64px;
+    margin-top: 125px;
+    margin-left: 30px;
+    @include title__text;
+
+}
+
+.home__help {
+    height: 112px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 112px/2 + 22px);
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;
+    color: $lightwhte;
+    width: 600px;
+    height: 18px;
+    margin-top: 155px;
+
+}
+
+.home__ago {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 43px;
+}

@@ -1,0 +1,52 @@
+.meet {
+    width: 1440px;
+    height: 1054px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background: #004047;
+
+
+}
+
+.meet__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 1300px;
+    padding-top: 30px;
+    padding-left: 171px;
+
+}
+
+.list__itom {
+    @include meet;
+    padding-bottom: 151px;
+
+}
+
+.meet__ago {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: $lightwhte;
+    margin-bottom: 81px;
+}
+
+.list__itom h4 {
+    @include meet__text;
+
+}
+
+.list__itom p {
+    color: $lightwhte;
+    height: 75px;
+    width: 254px;
+    margin-left: 50px;
+
+}

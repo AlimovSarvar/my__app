@@ -1,0 +1,73 @@
+.home__two{
+    background-color: #012F34;
+   height: 700px;
+   background-image: url('../../index_img/else.png');
+   background-repeat: no-repeat;
+   background-position: bottom right;
+ 
+}
+.else{
+    width: 1300px;
+    height: 648px;
+
+}
+.else__text{
+  padding-top: 198px;
+  display: flex;
+  justify-content: center ;
+align-items:center ;
+margin-left: -350px;
+}
+.else__h2{
+    height: 144px;
+width: 445px;
+left: 165px;
+top: 898px;
+border-radius: nullpx;
+color: $lightwhte;
+width: 445px;
+height: 144px;
+left: 165px;
+top: 898px;
+
+font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+
+}
+.home__two__list{
+    padding: 90px;
+margin-left: 150px;
+    width: 540px;
+    height: 346px;
+}
+.home__list__itom{
+   display: flex;
+
+}
+.home__list__itom img{
+    margin-right: 23px;
+    height: 72px;
+width: 72px;
+left: 735px;
+top: 1150px;
+border-radius: 0px;
+
+}
+.home__list__itom h4{
+    @include list__h4;
+
+}
+.home__list__itom p{
+    @include list__p;
+    
+}
+.else__img{
+    display: flex;
+    height: 10px;
+justify-content: end;
+align-items: center;
+
+}
